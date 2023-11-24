@@ -42,7 +42,11 @@ page = st.sidebar.selectbox("Выберите страницу", ['Команд�
 if page == "Команда":
     st.header('Команда ResNet')
     st.subheader('Роман - модель Resnet18 для классификации "спортивных" изображений')
+    # roman = Image.open('pics/roman.jpg')
+    # st.image(roman)
     st.subheader('Ерлан - модель Resnet для классификации изображений клеток крови')
+    # erlan = Image.open('pics/erlan.jpg')
+    # st.image(erlan)
     st.header('Исходная модель - ResNet')
 
 
